@@ -7,7 +7,7 @@
 ---
 
 ### ⚡ About Me
-I am an aspiring **Systems Engineer** based in Bangladesh, currently studying at **Dinajpur Government College**. My work sits at the intersection of hardware and human-computer interaction. I believe in building technology that isn't just functional, but life-changing.
+I am an aspiring **Systems Engineer** based in Bangladesh, currently studying at **Dinajpur Government College (DGC)**. My work sits at the intersection of hardware and human-computer interaction. I believe in building technology that isn't just functional, but life-changing.
 
 - 🔭 **Current Focus:** AI-integrated assistive wearables and IoT mesh networks.
 - 🌱 **Hobbyist Botanist:** Applying engineering logic to urban gardening and organic plant nutrition.
@@ -38,8 +38,8 @@ I am an aspiring **Systems Engineer** based in Bangladesh, currently studying at
 
 ### 📊 Engineering Metrics
 <p align="left">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB_USER]&show_icons=true&theme=transparent&text_color=71d5ff&title_color=36BCF7&icon_color=36BCF7&bg_color=0,00000000,00000000" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_GITHUB_USER]&layout=compact&theme=transparent&text_color=71d5ff&title_color=36BCF7&bg_color=0,00000000,00000000" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AS-Sajid-18&show_icons=true&theme=transparent&text_color=71d5ff&title_color=36BCF7&icon_color=36BCF7&bg_color=0,00000000,00000000" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AS-Sajid-18&layout=compact&theme=transparent&text_color=71d5ff&title_color=36BCF7&bg_color=0,00000000,00000000" />
 </p>
 
 ---
@@ -50,7 +50,5 @@ When I'm not in the IDE, I'm likely in my terrace garden. I apply the same "opti
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Powered%20By-Gemini%20AI-blue?style=for-the-badge&logo=google-gemini&logoColor=white" />
-  <br>
   <i>"Optimizing the world, one line of code at a time."</i>
 </p>
