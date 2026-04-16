@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Sajid Mahmud Anik | Systems Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+            background-image: radial-gradient(circle at 2px 2px, #1a1a1a 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        .fira { font-family: 'Fira Code', monospace; }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+        }
+        .glow-text { text-shadow: 0 0 20px rgba(54, 188, 247, 0.5); }
+        .gradient-border {
+            border: 1px solid;
+            border-image-source: linear-gradient(45deg, #36BCF7, #7000FF);
+            border-image-slice: 1;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-12">
+
+    <nav class="max-w-6xl mx-auto flex justify-between items-center mb-20">
+        <div class="fira text-cyan-400 font-bold text-xl">./anik_dev</div>
+        <div class="hidden md:flex gap-8 text-sm uppercase tracking-widest text-gray-400">
+            <a href="#about" class="hover:text-cyan-400 transition">About</a>
+            <a href="#projects" class="hover:text-cyan-400 transition">Research</a>
+            <a href="#skills" class="hover:text-cyan-400 transition">Stack</a>
+            <a href="#garden" class="hover:text-cyan-400 transition">Life</a>
+        </div>
+    </nav>
+
+    <header class="max-w-4xl mx-auto text-center mb-32">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 glow-text">Md. Sajid Mahmud Anik</h1>
+        <p class="fira text-cyan-400 text-lg mb-8">Aspiring Systems Engineer | HSC 2027 @ DGC</p>
+        <p class="text-gray-400 leading-relaxed text-lg max-w-2xl mx-auto">
+            Architecting the future at the intersection of Silicon and Soil. Focused on building high-impact assistive technology and decentralized IoT ecosystems.
+        </p>
+    </header>
+
+    <section id="projects" class="max-w-5xl mx-auto mb-32">
+        <h2 class="fira text-2xl text-cyan-400 mb-10 text-center">/ Featured_Research</h2>
+        <div class="glass p-8 md:p-12 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-4 text-xs fira text-gray-600">ID: 2026-NV-01</div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold mb-4">Neural Voice Glove</h3>
+                    <p class="text-cyan-400 fira mb-4 underline">Collaborative Project with Shajidur Rahman</p>
+                    <p class="text-gray-400 mb-6 italic text-sm">"Bridging the sound gap for the speech-impaired community."</p>
+                    <ul class="space-y-3 text-gray-300 text-sm">
+                        <li>• <strong>Hardware:</strong> ESP32-S3 Microcontroller, MPU6050 6-Axis IMU.</li>
+                        <li>• <strong>Sensors:</strong> High-precision flex sensors for digit movement tracking.</li>
+                        <li>• <strong>Logic:</strong> Real-time gesture-to-speech mapping via ESP-NOW protocols.</li>
+                    </ul>
+                </div>
+                <div class="bg-black/50 aspect-video rounded-lg flex items-center justify-center border border-white/10">
+                    <span class="fira text-gray-600">[Interactive_Model_Placeholder]</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="max-w-5xl mx-auto mb-32">
+        <h2 class="fira text-2xl text-cyan-400 mb-10 text-center">/ Technical_Arsenal</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="glass p-6">
+                <h4 class="fira text-cyan-400 mb-4">Core_Languages</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">C++</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Python</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Embedded C</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Bash</span>
+                </div>
+            </div>
+            <div class="glass p-6">
+                <h4 class="fira text-cyan-400 mb-4">Infrastructure</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">EndeavourOS</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Git/GitHub</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Docker</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Debian</span>
+                </div>
+            </div>
+            <div class="glass p-6">
+                <h4 class="fira text-cyan-400 mb-4">Hardware_IoT</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">ESP32-S3</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">I2C/SPI</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">Circuit Design</span>
+                    <span class="px-3 py-1 bg-white/5 rounded-full text-xs">ESP-NOW</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="garden" class="max-w-5xl mx-auto mb-32">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <h2 class="fira text-2xl text-green-400 mb-6">/ Botany_Optimization</h2>
+                <p class="text-gray-400 leading-relaxed mb-6">
+                    Beyond the screen, I apply engineering logic to urban agriculture. My terrace garden serves as a biological test-bed where I experiment with:
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-xs fira uppercase">
+                    <div class="p-3 border border-green-900/30 rounded bg-green-900/10 text-green-400">Organic Chemistry (N-P-K)</div>
+                    <div class="p-3 border border-green-900/30 rounded bg-green-900/10 text-green-400">Automated Irrigation</div>
+                </div>
+            </div>
+            <div class="order-1 md:order-2 glass h-64 flex items-center justify-center border-green-500/20">
+                 <span class="text-5xl">🌿</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-6xl mx-auto border-t border-white/5 pt-12 text-center text-gray-600 text-sm fira">
+        <p>Built with precision & high-end aesthetics.</p>
+        <p class="mt-2 text-xs">© 2026 Md. Sajid Mahmud Anik | Dinajpur, BD</p>
+    </footer>
+
+</body>
+</html>
